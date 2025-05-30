@@ -4,7 +4,6 @@ const connectDB = require('./config/db');
 const config = require('./config/config'); 
 const authRoutes = require('./routes/authRoutes'); 
 const userRoutes = require('./routes/userRoutes'); 
-const swaggerUi = require('swagger-ui-express'); 
 
 dotenv.config();
 
