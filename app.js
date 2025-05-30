@@ -1,5 +1,6 @@
 const express = require('express');
 const dotenv = require('dotenv');
+require('dotenv').config(); // Load environment variables from .env file
 const connectDB = require('./config/db'); 
 const config = require('./config/config'); 
 const authRoutes = require('./routes/authRoutes'); 
