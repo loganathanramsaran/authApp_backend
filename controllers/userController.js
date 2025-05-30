@@ -16,7 +16,7 @@ const getUserProfile = async (req, res) => {
     });
   } catch (error) {
     console.error(error);
-    res.status(500).json({ message: 'Server error' });
+    res.status(500).json({ message: 'getUserProfile-Server error' });
   }
 };
 
@@ -34,7 +34,7 @@ const getAllUsers = async (req, res) => {
       users});
   } catch (error) {
     console.error(error);
-    res.status(500).json({ message: 'Server error' });
+    res.status(500).json({ message: 'getAllUsers-Server error' });
   }
 };
 
