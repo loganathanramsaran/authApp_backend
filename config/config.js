@@ -1,10 +1,10 @@
-require('dotenv').config(); // Load environment variables from .env file
+require('dotenv').config(); 
 
 const config = {
-  port: process.env.PORT || 6000, // Default to 4000 if PORT is not set
-  mongoURI: process.env.MONGO_URI, // MongoDB connection URI
-  jwtSecret: process.env.JWT_SECRET, // Secret key for JWT
-};
+  port: process.env.PORT || 6000, 
+  mongoURI: process.env.MONGO_URI, 
+  jwtSecret: process.env.JWT_SECRET, 
+}
 
 module.exports = config;
 

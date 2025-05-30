@@ -4,7 +4,7 @@ const { protect } = require('../middlewares/authMiddleware');
 
 const router = express.Router(); 
 
-router.get('/profile', protect, getUserProfile); // Apply 'protect' middleware before 'getUserProfile'
-router.get('/profiles', getAllUsers); // Get all users
+router.get('/profile', protect, getUserProfile); 
+router.get('/profiles', getAllUsers); 
 module.exports = router;
 
