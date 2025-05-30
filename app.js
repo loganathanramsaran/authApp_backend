@@ -27,8 +27,4 @@ app.listen(PORT, () => {
   console.log(`Server running on port http://localhost:${PORT}`);
 });
 
-app.use((err, req, res, next) => {
-  console.error('Internal Error:', err.stack);
-  res.status(500).json({ message: 'Something went wrong', error: err.message });
-});
 
