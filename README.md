@@ -51,6 +51,36 @@ View data in [Google Sheet](https://docs.google.com/spreadsheets/d/1gFLlGjWgVg1B
 | `401 Unauthorized` | Authentication failed. |
 | `500 Internal Server Error` | Server encountered an error. |
 
+--
+
+## Deployed App 🚀
+
+#### For Live Demo Click the Below Link ⬇️ <br/>
+
+🌐 Live URL : [https://authApp.onrender.com/](https://authapp-backend-jglx.onrender.com)
+
+---
+
+## Project Structure 🗂️
+
+```bash
+AuthFlow/
+├── 📂 config/           # ⚙️ Configuration files (e.g.,config,db)
+├── 📂 controllers/      # 🧠 Business logic
+├── 📂 middlewares/      # 🛡️ Middleware
+├── 📂 models/           # 🛢️ Mongoose Schemas and Data Models
+├── 📂 routes/           # 🛣️ Express route Definitions
+├── 📂 utils/            # 🔧 Helper functions
+├── 📂 views/            # 🎨 EJS templates for Rendering Views
+├── 📄 app.js            # 🚀 App Setup
+├── 📄 package.json      # 📦 Project Dependencies
+├── 📄 package-lock.json # 🔒 Exact versions of Installed Dependencies
+├── 📄 README.md         # 📝 Project Overview and Setup Instructions
+├── 📄 .gitignore        # 🚫 Specifies Files and Directories to Ignore in Git
+└── 📄 .env              # 🌱 Environment Variables (e.g., DB URL, PORT, Secrets)
+
+```
+
 ## 🛠️ Setup
 
 ```bash
