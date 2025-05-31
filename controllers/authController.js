@@ -32,7 +32,6 @@ const registerUser = async (req, res) => {
 
     // Respond with user ID, username, email, and the generated token
     res.status(201).json({
-      totalUsers: await User.countDocuments(), // Return total number of users
       message: 'User registered successfully',
       _id: user._id,
       username: user.username,
