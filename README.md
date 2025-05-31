@@ -21,6 +21,24 @@
 ## 📊 Data
 View data in [Google Sheet](https://docs.google.com/spreadsheets/d/1gFLlGjWgVg1BXB_u7QHCgxLyUFswxUHxHwSIyhzM2YE/edit?usp=sharing)
 
+## Configuration Settings
+
+| Setting       | Description                                  | Default Value |
+| :------------ | :------------------------------------------- | :------------ |
+| `PORT`        | Port number for the server to listen on.     | `4000`        |
+| `MONGO_URI`   | Connection string for the MongoDB database.  | `(required)`  |
+| `JWT_SECRET`  | Secret key used for signing JWTs.            | `(required)`  |
+
+## API Response Codes
+
+| Status Code | Description           |
+| :---------- | :-------------------- |
+| `200 OK`    | Request successful.   |
+| `201 Created` | Resource created.     |
+| `400 Bad Request` | Invalid input.        |
+| `401 Unauthorized` | Authentication failed. |
+| `500 Internal Server Error` | Server encountered an error. |
+
 ## 🛠️ Setup
 
 ```bash
