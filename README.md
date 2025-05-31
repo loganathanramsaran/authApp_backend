@@ -1,3 +1,30 @@
+##✨ Features
+      => User Registration: Securely register new users with hashed passwords.
+      => User Login: Authenticate existing users and issue JWTs (Bearer Tokens).
+      => Bearer Token Authorization: Protect API routes, allowing access only to authenticated users presenting a valid JWT.
+      => Password Hashing: Uses bcryptjs for secure password storage.
+      => Environment Variables: Secure configuration management using dotenv.
+      => MVC Pattern: Organized codebase for better maintainability and scalability.
+      => API Documentation: API documentation generated with Postman.
+      => MongoDB Integration: Persistent data storage with Mongoose.
+
+      
+##🚀 Technologies Used
+      => Node.js: JavaScript runtime environment
+      => Express.js: Web application framework
+      => Mongoose: MongoDB object modeling for Node.js
+      => JSON Web Tokens (JWT): For creating secure, stateless access tokens
+      => bcryptjs: For password hashing
+      => Dotenv: For loading environment variables
+      => Nodemon (dev dependency): For automatic server restarts during development
+
+
+## 📊 Google Sheet
+
+You can view the data here:  
+🔗 [Google Sheet Link](https://docs.google.com/spreadsheets/d/1gFLlGjWgVg1BXB_u7QHCgxLyUFswxUHxHwSIyhzM2YE/edit?usp=sharing)
+
+    https://docs.google.com/spreadsheets/d/1gFLlGjWgVg1BXB_u7QHCgxLyUFswxUHxHwSIyhzM2YE/edit?usp=sharing
 
 ## API Documentation
 
