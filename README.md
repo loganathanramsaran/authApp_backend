@@ -19,6 +19,17 @@
 - dotenv
 
 ## 📊 Data
+---
+
+## API Endpoints 📮
+
+| Method | Endpoint            | Description                  | Access       | Response                       |
+|--------|---------------------|------------------------------|--------------|--------------------------------|
+| GET    | `/api/users/profile`| Get User Profile using token | 🔐 Private   | 🔐 User Details / ❌ Error    |
+| POST   | `/api/auth/register`| Register New User            | 🌐 Public    | ✅ JWT token / ❌ Error       |
+| POST   | `/api/auth/login`   | Login Existing User          | 🌐 Public    | ✅ Success / ❌ Error         |
+
+---
 View data in [Google Sheet](https://docs.google.com/spreadsheets/d/1gFLlGjWgVg1BXB_u7QHCgxLyUFswxUHxHwSIyhzM2YE/edit?usp=sharing)
 
 ## Configuration Settings
