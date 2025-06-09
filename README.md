@@ -76,7 +76,7 @@ You can test all API endpoints using the Postman collection below:
 ## Project Structure 🗂️
 
 ```bash
-AuthFlow/
+authApp_backend/
 ├── 📂 config/           # ⚙️ Configuration files (e.g.,config,db)
 ├── 📂 controllers/      # 🧠 Business logic
 ├── 📂 middlewares/      # 🛡️ Middleware
